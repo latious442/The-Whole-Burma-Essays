@@ -1,0 +1,35 @@
+body{
+    background-color:#171717;
+    color:white;
+}
+a{
+    color:black;
+}
+div{
+    padding-bottom: 3%;
+}
+ #over{
+    display:none;
+ }
+ a{
+    gap:5px;
+ }
+ h2,h1{
+    text-align:center;
+ }
+ pre{
+    width:100%;
+ }
+ h4{
+    padding:10
+ }
+ #it{
+   font-style: italic;
+   text-align: center;
+   padding:10px 10px 10px 10px;
+ }
+ article{
+   word-spacing: 3px;
+   letter-spacing: 1px;
+
+ }

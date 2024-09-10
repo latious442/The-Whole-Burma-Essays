@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+  <div class="navbar navbar-dark bg-success navbar-expand">
+    <div class="fluid-container";style="color:dark; font-size:bold;">
+      <a class="btn btn-dark" id="mouse">
+        <i class="fa-solid fa-bars me-3 text-white"></i>
+      </a>
+      <a href="#" class="navbar-brand">
+        <i class="fa-solid fa-ghost me-3 text-white"></i>
+        The Whole Burma</a></h1>
+    <nav id="over">
+      <span><a class="btn btn-success" href="Index.html" >
+        <i class="fa-solid fa-home me-3 text-light"></i>
+        Home</a></span></br>
+        <span><a class="btn btn-success" href="info.html" >
+          <i class="fa-solid fa-paper-plane me-3 text-light"></i>
+          Info</a></span>
+        </br><span id="overlay"><a class="btn btn-success" href="#" >
+        <i class="fa-solid fa-power-off me-3 text-light"></i>
+      Hide</a></span>
+    </nav>
+      </div>
+    </div>
+    <div class="container"></div>
+      <div class="card bg-dark text-light">
+         <div class="card-body">
+           <article>
+             <h1>
+              
+             </br></h1>
+              </article>
+         
+         </div>
+      </div></div>
+      
+  
+
+<script>
+  document.querySelector("#mouse").onclick = show;
+  document.querySelector("#overlay").onclick = hide;
+  
+  
+
+  function show(){
+      document.querySelector("#overlay").style.display = "block";
+      document.querySelector("#over").style.display = "block";
+  
+
+  }
+  function hide(){
+      document.querySelector("#overlay").style.display = "none";
+      document.querySelector("#over").style.display = "none";
+      
+
+  }
+</script></body>
+</html>
